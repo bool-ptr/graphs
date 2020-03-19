@@ -1,3 +1,3 @@
 #graphs
 
-1. adjacency list
+1. bi directional graph using adjacency list
