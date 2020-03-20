@@ -1,17 +1,15 @@
 #include<iostream>
 using namespace std;
-//#include<conio>
-//#include<stdlib>
 int cost[10][10],i,j,k,n,stk[10],top,v,visit[10],visited[10];
 int main()
 {
     int m;
-    //clrscr();
+   
     cout <<"Enter no of vertices:";
     cin >> n;
     cout <<"Enter no of edges:";
     cin >> m;
-    cout <<"\nEDGES \n";
+    cout <<"\nedges \n";
     for(k=1; k<=m; k++)
     {
         cin >>i>>j;
@@ -38,6 +36,6 @@ int main()
         visit[v]=0;
         visited[v]=1;
     }
-   // getch();
+   
     return 0;
 }
