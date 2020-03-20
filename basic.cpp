@@ -16,7 +16,6 @@ int main(){
         adj[v].push_back(u);
     }
 
-    //printing the bi directional graph
 
     for(int i=0;i<vertices;i++){
         cout<<i;
